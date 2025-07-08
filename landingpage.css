@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+body{
+    background-image: url(./images/bg-desktop.svg);
+    background-color: #3d58a3 !important;
+    font-style: poppins;
+}
+
+.first-div-icon{
+    margin-top: 5%;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5rem;
+}
+.first-div-icon-p{
+    font-style: poppins;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+}
+.first-div-icon-i{
+    height: 100%;
+    font-size: xx-large;
+    color: white;
+    font-weight: bolder;
+}
+
+.second-container{
+    margin-top: 25px;
+    display: flex;
+    /* align-items: center; */
+    gap: 3%;
+}
+.img-right img{
+    /* flex-basis: 50%; */
+    max-width: 100%;
+}
+
+
+
+.text-left{
+flex-basis: 50%;
+/* margin-top: -15%; */
+margin-top: 6%;
+}
+
+.text-left h3{
+    width: 50%;
+    line-height: 2rem;
+    color: rgba(255, 255, 255, 0.919);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 5%;
+
+}
+
+.text-left p{
+    width: 65%;
+    line-height: 1.2rem;
+    color: rgba(255, 255, 255, 0.919);
+    font-size: .8rem;
+
+}
+
+.button{
+    width: 20%;
+    padding: 8px;
+    border-radius: 100px ;
+    border-style: none;
+    font-size: .7em;
+}
+
+button:active{
+    color: #fff ;
+    background-color:rgb(217, 134, 217) ;
+}
+
+
+@media(max-width: 992px){
+
+     .second-container{
+        display: block;
+        margin-bottom: 10%;
+    }
+
+   .text-left{
+    margin-top: 10%;
+    
+}
+
+    .text-left h3{
+         width: 100%;
+         line-height: 2rem;
+         color: white;
+         font-size: 1.5rem;
+         font-weight: bolder;
+
+}
+}
+
